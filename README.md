@@ -13,10 +13,10 @@ gem 'percona-migrations'
 Create `config/initializers/percona_migrations.rb` with:
 
 ```ruby
-PerconaMigrations.allow_sql = !Rails.env.production?
 PerconaMigrations.database_config = ActiveRecord::Base.configurations[Rails.env]
+PerconaMigrations.allow_sql = !Rails.env.production?
 
-ActiveRecord::Migration.send :include, PerconaMigrations::Methods
+ActiveRecord::Migration.send :include, PerconaMigrations::HelperMethods
 ```
 
 ## Usage
