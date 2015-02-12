@@ -1,5 +1,7 @@
 # Percona Migrations
 
+[![Build Status](https://travis-ci.org/svarks/percona-migrations.svg?branch=master)](https://travis-ci.org/svarks/percona-migrations)
+
 Allows to use `pt-online-schema-change` for table changes in MySQL.
 
 ## Installation
