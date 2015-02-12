@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Sergey Varaksin"]
   spec.email         = ["varaksin86@gmail.com"]
   spec.summary       = %q{Allows to use percona in rails migrations.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/svarks/percona-migrations"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
